@@ -20,7 +20,7 @@ app_version = "0.0.1"
 
 # Home Pages
 # ----------
-
+fixtures = ["Custom Script"]
 # application home page (will override Website Settings)
 # home_page = "login"
 
@@ -40,7 +40,7 @@ app_version = "0.0.1"
 
 # before_install = "Auto_LWP.install.before_install"
 # after_install = "Auto_LWP.install.after_install"
-
+after_install = "lwp_auto.auto_lwp.doctype.auto_calculate_lwp.auto_calculate_lwp.after_install"
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
